@@ -1,0 +1,104 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header con el logo */
+header {
+    background: #ce9802;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+#logo {
+    width: 150px;
+}
+
+/* Fondo del cuerpo */
+body {
+    background: #1e1e1e; /* Color de fondo oscuro */
+    color: white;
+}
+
+/* Sección del menú con fondo */
+.menu {
+    background: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 90%;
+    margin: 30px auto;
+}
+
+/* Cartas de hamburguesas */
+.carta {
+    background: rgba(0, 0, 0, 0.3); /* Fondo blanco */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 250px;
+    padding: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efecto al pasar el mouse */
+.carta:hover {
+    transform: scale(1.05);
+}
+
+.carta img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.carta h2 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #555;
+}
+
+.carta p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background: #ce9802;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes {
+    margin-top: 10px;
+}
+
+.redes a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+.redes a:hover {
+    transform: scale(1.2);
+}
+
